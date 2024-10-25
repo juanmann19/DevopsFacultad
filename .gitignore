@@ -18,7 +18,7 @@ appsettings.*
 *.userprefs
 # Mono auto generated files
 mono_crash.*
-
+*.uva
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
