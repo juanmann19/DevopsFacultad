@@ -24,7 +24,7 @@ namespace Proyecto_Facultad.Controllers
         // GET: Alumno
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Alumnos());
+            return View(await _context.Alumnos.ToListAsync());
         }
 
         // GET: Alumno/Details/5
