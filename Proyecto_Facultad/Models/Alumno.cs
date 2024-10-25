@@ -48,7 +48,7 @@ public partial class Alumno
     public string PrimerApellidoAlumno { get; set; }
 
     [DisplayName("Segundo Apellido")]
-    [RegularExpression(@"^[a-zA-ZáéíóúÁÉÍÓÚÜüñÑ]+$", ErrorMessage = "Campo solo puede contener letras")]
+    [RegularExpression(@"^[a-zA-ZáéíóúÁÉÍÓÚÜüñÑ]+$", ErrorMessage = "Campo solo puede contener letraz")]
     public string SegundoApellidoAlumno { get; set; }
 
 
